@@ -1,0 +1,63 @@
+table {
+    border-collapse: collapse;
+    width: 1580px;
+  }
+
+  .box {
+    width: 900px;
+    height: 50px;
+    text-align: left;
+    font-size: 1.5em;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .odd {
+    background-color: white;
+    color: black;
+  }
+
+  .even {
+    background-color: black;
+    color: white;
+  }
+
+  .red-box {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  .counter {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1em;
+  }
+
+  .green {
+    background-color: blue;
+    width: 60px;
+    height: 40px;
+  }
+
+  .result-paragraph {
+    display: inline;
+    font-size: 1.2em;
+    margin-left: 20px;
+  }
+
+  button {
+    font-size: 1.2em;
+    width: 70px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: greenyellow;
+  }
